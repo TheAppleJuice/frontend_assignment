@@ -51,7 +51,11 @@ button{
 }
 
 header{
-    background-color: gray;
+    color: blueviolet;
+}
+
+headerLogin{
+    text-transform: uppercase;
     color: blueviolet;
 }
 
