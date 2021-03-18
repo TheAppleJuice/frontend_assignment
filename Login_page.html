@@ -19,18 +19,19 @@
 
 
 <headerLogin>
-    User login here:
+    User login:
 </headerLogin>
-<form id="loginForm">
-    <label></label>
+<br>
+<br>
+<form class=" form formStyle">
     <input type="text" placeholder="User name" name="username"/>
 
-    <label> </label>
     <input type="text" placeholder="Password" name="password">
-    <input type="button" onclick="resetFunction()" value="Reset"></button>
-    <input type="button" value="Sign in"></button>
+    <input class="button buttonReset" type="button" onclick="resetFunction()" value="Reset"></button>
+    <input class="button buttonSignIn" type="button" value="Sign in"></button>
     <hr/>
 </form>
+
 
 <script>
     function resetFunction() {

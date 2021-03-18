@@ -56,8 +56,9 @@ header{
 
 headerLogin{
     text-transform: uppercase;
-    color: blueviolet;
-}
+    color: black;
+    font: bold;
+    }
 
 
 img{
@@ -102,6 +103,25 @@ h2{
 
 h3,h4,h5 {
     color: #9370db;
+}
+
+.formStyle{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    }
+
+.buttonReset{
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+
+}
+.buttonSignIn{
+    background-color: green;
+    border-radius: 4px;
+    color: white;
+
 }
 
 .footer{
